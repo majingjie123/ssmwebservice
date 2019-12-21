@@ -24,7 +24,7 @@ public class TestFile {
         StringBuilder content = new StringBuilder();
         content.append("秦洋洋先生你好：");
         content.append("<br/>");
-        content.append("        收到邮件回复一下谢谢");
+        content.append("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;收到邮件回复一下谢谢!");
         String myAccount = "1334015172@qq.com";
         String pass = "myaimbysdtkbjdie";
         String smtphost = "smtp.qq.com";

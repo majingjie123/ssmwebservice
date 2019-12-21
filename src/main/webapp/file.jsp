@@ -16,6 +16,5 @@
     文件上传<input type="file" name="file" />
     <input type="submit" />
 </form>
-
 </body>
 </html>
