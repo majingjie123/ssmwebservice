@@ -1,6 +1,6 @@
 package com.xjst.controller;
 
-import com.xjst.utils.FileUtils;
+import com.xjst.utils.fileutils.FileUtils;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;

@@ -1,4 +1,4 @@
-package com.xjst.utils;
+package com.xjst.utils.fileutils;
 
 
 import org.springframework.web.multipart.MultipartFile;

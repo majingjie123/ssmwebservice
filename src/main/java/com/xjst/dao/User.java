@@ -7,6 +7,8 @@ public class User {
 
     private Integer deptid;
 
+    private String Email;
+
     public Integer getId() {
         return id;
     }
@@ -29,5 +31,13 @@ public class User {
 
     public void setDeptid(Integer deptid) {
         this.deptid = deptid;
+    }
+
+    public String getEmail() {
+        return Email;
+    }
+
+    public void setEmail(String email) {
+        Email = email;
     }
 }
