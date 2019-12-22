@@ -219,6 +219,16 @@
             <version>2.9.1</version>
         </dependency>
         <!--end-->
+        <dependency>
+            <groupId>org.apiguardian</groupId>
+            <artifactId>apiguardian-api</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.opentest4j</groupId>
+            <artifactId>opentest4j</artifactId>
+            <version>1.1.1</version>
+        </dependency>
         <!-- https://mvnrepository.com/artifact/junit/junit -->
         <dependency>
             <groupId>junit</groupId>
