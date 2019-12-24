@@ -13,12 +13,8 @@
             </bean>
         </mvc:message-converters>
     </mvc:annotation-driven>
-
-    <!--添加swagger配置-->
-    <bean class="springfox.documentation.swagger2.configuration.Swagger2DocumentationConfiguration" id="swagger2Config"/>
-    <mvc:resources location="classpath:/META-INF/resources/" mapping="swagger-ui.html"/>
-    <mvc:resources location="classpath:/META-INF/resources/webjars/" mapping="/webjars/**"/>
-
+    <!-- 加载SwaggerConfig  类名改成自己创建的-->
+    <bean class="com.xjst.swargerconfig.SwaggerConfig"/>
     <!--跨域访问-->
     <mvc:cors>
         <mvc:mapping path="/**" allowed-origins="*" allowed-methods="POST, GET, OPTIONS, DELETE, PUT"
@@ -29,6 +25,7 @@
     <task:annotation-driven/>
     <!--配置定时任务扫描包-->
     <context:component-scan base-package="com.xjst.commpent"/>
+    <mvc:resources mapping="/swagger/**" location="/swagger/"></mvc:resources>
     <!-- 多部分文件上传 -->
     <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
         <property name="maxUploadSize" value="104857600" />
