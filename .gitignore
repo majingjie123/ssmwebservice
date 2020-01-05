@@ -109,3 +109,4 @@
 /.idea/libraries/Maven__org_springframework_spring_messaging_4_3_7_RELEASE.xml
 /.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_2_6.xml
 /log/test.log
+/.idea/
