@@ -1,5 +1,5 @@
 
-package cn.com.webxml;
+package com.xjst.webxml;
 
 import javax.xml.bind.JAXBElement;
 import javax.xml.bind.annotation.XmlElementDecl;

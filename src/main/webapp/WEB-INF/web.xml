@@ -5,7 +5,7 @@
          id="WebApp_ID" version="2.5">
     <display-name>servlet</display-name>
     <welcome-file-list>
-        <welcome-file>swagger-ui.html</welcome-file>
+        <welcome-file>/swagger/dist/index.html</welcome-file>
     </welcome-file-list>
     <context-param>
         <param-name>contextConfigLocation</param-name>

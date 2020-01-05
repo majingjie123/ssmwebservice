@@ -1,5 +1,5 @@
 
-package cn.com.webxml;
+package com.xjst.webxml;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>anonymous complex type的 Java 类。
+ * <p>anonymous complex type锟斤拷 Java 锟洁。
  * 
- * <p>以下模式片段指定包含在此类中的预期内容。
+ * <p>锟斤拷锟斤拷模式片锟斤拷指锟斤拷锟斤拷锟斤拷锟节达拷锟斤拷锟叫碉拷预锟斤拷锟斤拷锟捷★拷
  * 
  * <pre>
  * &lt;complexType>
@@ -39,7 +39,7 @@ public class GetMobileCodeInfo {
     protected String userID;
 
     /**
-     * 获取mobileCode属性的值。
+     * 锟斤拷取mobileCode锟斤拷锟皆碉拷值锟斤拷
      * 
      * @return
      *     possible object is
@@ -51,7 +51,7 @@ public class GetMobileCodeInfo {
     }
 
     /**
-     * 设置mobileCode属性的值。
+     * 锟斤拷锟斤拷mobileCode锟斤拷锟皆碉拷值锟斤拷
      * 
      * @param value
      *     allowed object is
@@ -63,7 +63,7 @@ public class GetMobileCodeInfo {
     }
 
     /**
-     * 获取userID属性的值。
+     * 锟斤拷取userID锟斤拷锟皆碉拷值锟斤拷
      * 
      * @return
      *     possible object is
@@ -75,7 +75,7 @@ public class GetMobileCodeInfo {
     }
 
     /**
-     * 设置userID属性的值。
+     * 锟斤拷锟斤拷userID锟斤拷锟皆碉拷值锟斤拷
      * 
      * @param value
      *     allowed object is

@@ -34,4 +34,11 @@ public class TestFile {
         String protocol = PropertiesUtils.getProperties("protocol");
         EmailUtils.sendEmail(user,subject,content.toString().trim(),"你马景杰大哥邮件发送测试用的",myAccount,pass,smtphost,protocol,"true");
     }
+    @Test
+    public void test3(){
+        iii(new User());
+    }
+    public void iii(User user){
+        System.out.println(user);
+    }
 }

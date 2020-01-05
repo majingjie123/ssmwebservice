@@ -1,5 +1,5 @@
 
-package cn.com.webxml;
+package com.xjst.webxml;
 
 import javax.jws.WebMethod;
 import javax.jws.WebParam;
@@ -24,7 +24,7 @@ public interface MobileCodeWSSoap {
 
 
     /**
-     * <br /><h3>»ñµÃ¹úÄÚÊÖ»úºÅÂë¹éÊôµØÊ¡·Ý¡¢µØÇøºÍÊÖ»ú¿¨ÀàÐÍÐÅÏ¢</h3><p>ÊäÈë²ÎÊý£ºmobileCode = ×Ö·û´®£¨ÊÖ»úºÅÂë£¬×îÉÙÇ°7Î»Êý×Ö£©£¬userID = ×Ö·û´®£¨ÉÌÒµÓÃ»§ID£© Ãâ·ÑÓÃ»§Îª¿Õ×Ö·û´®£»·µ»ØÊý¾Ý£º×Ö·û´®£¨ÊÖ»úºÅÂë£ºÊ¡·Ý ³ÇÊÐ ÊÖ»ú¿¨ÀàÐÍ£©¡£</p><br />
+     * <br /><h3>ï¿½ï¿½Ã¹ï¿½ï¿½ï¿½ï¿½Ö»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¡ï¿½Ý¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢</h3><p>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½mobileCode = ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö»ï¿½ï¿½ï¿½ï¿½ë£¬ï¿½ï¿½ï¿½ï¿½Ç°7Î»ï¿½ï¿½ï¿½Ö£ï¿½ï¿½ï¿½userID = ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òµï¿½Ã»ï¿½IDï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ã»ï¿½Îªï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý£ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö»ï¿½ï¿½ï¿½ï¿½ë£ºÊ¡ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ö»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í£ï¿½ï¿½ï¿½</p><br />
      * 
      * @param mobileCode
      * @param userID
@@ -42,7 +42,7 @@ public interface MobileCodeWSSoap {
         String userID);
 
     /**
-     * <br /><h3>»ñµÃ¹úÄÚÊÖ»úºÅÂë¹éÊôµØÊý¾Ý¿âÐÅÏ¢</h3><p>ÊäÈë²ÎÊý£ºÎÞ£»·µ»ØÊý¾Ý£ºÒ»Î¬×Ö·û´®Êý×é£¨Ê¡·Ý ³ÇÊÐ ¼ÇÂ¼ÊýÁ¿£©¡£</p><br />
+     * <br /><h3>ï¿½ï¿½Ã¹ï¿½ï¿½ï¿½ï¿½Ö»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý¿ï¿½ï¿½ï¿½Ï¢</h3><p>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Þ£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý£ï¿½Ò»Î¬ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é£¨Ê¡ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Â¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</p><br />
      * 
      * @return
      *     returns cn.com.webxml.ArrayOfString

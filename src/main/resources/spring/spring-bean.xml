@@ -35,5 +35,5 @@
         <aop:advisor advice-ref="txadvice" pointcut="execution(* com.xjst.service.*.*(..))"/>
     </aop:config>
     <!--cxf客户端-->
-    <cxf:client id="MobileCodeWSSoap" serviceClass="cn.com.webxml.MobileCodeWSSoap" address="http://ws.webxml.com.cn/WebServices/MobileCodeWS.asmx?wsdl"/>
+    <cxf:client id="MobileCodeWSSoap" serviceClass="com.xjst.webxml.MobileCodeWSSoap" address="http://ws.webxml.com.cn/WebServices/MobileCodeWS.asmx?wsdl"/>
 </beans>
