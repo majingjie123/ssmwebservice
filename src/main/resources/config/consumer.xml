@@ -32,12 +32,12 @@
     </bean>
 
     <!-- 实际执行消息消费的类 -->
-    <bean id="messageListernerConsumerService" class="com.xjst.service.impl.KafkaServiceImpl"/>
+    <bean id="messageListernerConsumerService" class="com.xjst.service.impl.KafkaService"/>
 
     <!-- 消费者容器配置信息 -->
     <bean id="containerProperties" class="org.springframework.kafka.listener.config.ContainerProperties">
         <!--处理哪个主题下的消息-->
-        <constructor-arg name="topics" value="first"/>
+        <constructor-arg name="topics" value="first,second"/>
 <!--        &lt;!&ndash;消息监听&ndash;&gt;-->
         <property name="messageListener" ref="messageListernerConsumerService"/>
     </bean>

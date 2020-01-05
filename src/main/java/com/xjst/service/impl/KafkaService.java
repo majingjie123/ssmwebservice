@@ -6,9 +6,11 @@ import org.springframework.kafka.listener.MessageListener;
 import org.springframework.stereotype.Service;
 
 @Service
-public class KafkaServiceImpl implements MessageListener<Integer, String> {
+public class KafkaService implements MessageListener<String, String> {
     @Override
-    public void onMessage(ConsumerRecord<Integer, String> msg) {
+    public void onMessage(ConsumerRecord<String, String> msg) {
         System.out.println(msg.value());
+        System.out.println(msg.offset());
+        System.out.println(msg.checksum());
     }
 }

@@ -19,6 +19,7 @@ public class KafkaController {
     @ApiOperation(value = "kafka信息发送",notes = "kafka信息发送",httpMethod = "get")
     public String msgSend(){
         kafkaTemplate.send("first","张三");
+        kafkaTemplate.send("second","李四");
         return "/static/file.jsp";
     }
 }
