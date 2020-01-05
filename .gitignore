@@ -100,3 +100,12 @@
 /.idea/libraries/Maven__org_xhtmlrenderer_flying_saucer_core_9_0_3.xml
 /.idea/libraries/Maven__org_xhtmlrenderer_flying_saucer_pdf_9_0_3.xml
 /.idea/uiDesigner.xml
+/.idea/libraries/Maven__net_jpountz_lz4_lz4_1_3_0.xml
+/.idea/libraries/Maven__org_apache_kafka_kafka_clients_0_10_2_0.xml
+/.idea/libraries/Maven__org_springframework_integration_spring_integration_core_4_3_2_RELEASE.xml
+/.idea/libraries/Maven__org_springframework_integration_spring_integration_kafka_2_1_0_RELEASE.xml
+/.idea/libraries/Maven__org_springframework_kafka_spring_kafka_1_2_1_RELEASE.xml
+/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_1_3_RELEASE.xml
+/.idea/libraries/Maven__org_springframework_spring_messaging_4_3_7_RELEASE.xml
+/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_2_6.xml
+/log/test.log
